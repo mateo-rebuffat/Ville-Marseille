@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/marseille1.css">
+    <link rel="stylesheet" type="text/css" href="css/marseilleX.css">
+    <title>Ville de marseille | Histoire</title>
+</head>
+<body>
+    <header>
+        <!-- Barre de navigation principale -->
+        <nav class="navbar" onmouseover="showMenu()" onmouseout="hideMenu()">
+            <div class="menu-btn">Menu</div>
+            <ul id="navList" class="nav-list">
+                <li><a href="marseille.html">Accueil</a></li>
+                <li><a href="marseille2.html">Randonnées à proximité</a></li>
+                <li><a href="marseille3.html">Les plages</a></li>
+                <li><a href="marseille4.html">Les parcs publics</a></li>
+                <li><a href="marseille5.html">Les musées</a></li>
+                <li><a href="marseille6.html">Contactez-nous</a></li>
+            </ul>
+        </nav>
+    </header>
+    <img src="images/logo_0.png" alt="logo ville de marseille" class="logo">
+    <div class="container">
+        <h1>L'histoire de Marseille</h1>
+        <p>Avec ses 2600 ans d’existence, la doyenne des villes françaises regorge d’histoires toujours plus invraisemblables. Découvrir Marseille consiste donc à se plonger dans un grand livre pour mieux comprendre son extraordinaire patrimoine, ses monuments, ses 111 quartiers… Ville touristique accueillant près de 6 millions de touristes, la cité phocéenne réserve aussi à ses nouveaux arrivants une foultitude de surprises.</p>
+    
+    </div>
+    <main>
+        <section>
+            <div class="section-text">
+                <h2>L'union de Gyptis et de Prôtis, le mythe de la fondation de Marseille</h2>
+                <p>Vers 600 av. J.-C., des Grecs d’Asie Mineure, actuelle Turquie, quittent Phocée pour fonder une cité dans la calanque du Lacydon. Au début du VIe siècle av. J.-C., un premier habitat s’organise dans l’actuel quartier du Panier, au-dessus du port situé dans la calanque. Les Phocéens utilisent la position favorable du site de Marseille, à l’abri des vents dominants, la protection des îles du Frioul et la proximité avec le Rhône pour commercer avec les Gaulois. Le mythe de fondation de Massalia décrit la rencontre entre un marin grec, Prôtis, et une princesse gauloise, Gyptis. Son père, Nannos, le roi des Ségobriges, donne en cadeau de mariage le territoire de Massalia, qui est la plus ancienne ville de France. Il est possible que les citoyens de Phocée émigrent une seconde fois en 546 av. J.-C., chassés par les Perses. Ils apportent avec eux leur religion, leur langue, des techniques de construction, la culture de la vigne et de l’olivier et des produitscommerciaux de Méditerranée comme le vin et des vases en céramique. De la rencontre entre Grecs et Gaulois va naître une riche culture, en dépit de nombreux conflits territoriaux.</p>
+            </div>
+            <iframe width="510" height="265" src="https://www.youtube.com/embed/w6v9KGzMrv4" frameborder="0" allowfullscreen></iframe>
+        </section>
+        <H2>Les vestiges de la citée phocéenne</H2>
+       <article>
+        <img src="images/fort-saint-jean.jpg__400x270_q85_crop_subject_location-838,543_subsampling-2.jpg" alt="image du fort saint-jean">
+        <div class="section-text article-text">
+            <h2>MARSEILLE ET SES 84 MONUMENTS HISTORIQUES</h2>
+            <p>De par son histoire, Marseille concentre un grand nombre de monuments historiques qui doivent être préservés. Il est important en effet, de conserver cette part de l’histoire et de la transmettre aux futures générations. Des Églises, des Chapelles, des châteaux, des palais... Tous ces bâtiments sont des vestiges de l’histoire de Marseille et vous feront voyager dans le temps, de l’époque gréco-romaine à la Seconde Guerre Mondiale en passant par la Grande Peste de 1720.</p>
+        </div>    
+    </article>
+    </main>
+
+    <!-- footer -->
+    <footer class="footer">
+        <div class="social-icons">
+            <a href="https://www.instagram.com/choosemarseille/" target="_blank">
+                <img width="50" height="50" src="https://img.icons8.com/ios/50/instagram-new--v1.png" alt="instagram-new--v1"/>            </a>
+        
+            <a href="https://www.facebook.com/choosemarseille/" target="_blank">
+                <img width="50" height="50" src="https://img.icons8.com/ios/50/facebook--v1.png" alt="facebook--v1"/>            </a>
+        
+            <a href="https://twitter.com/choosemarseille/" target="_blank">
+                <img width="50" height="50" src="https://img.icons8.com/ios/50/twitterx--v2.png" alt="twitterx--v2"/>            </a>
+        </div>
+        <div class="copyright">
+            <span>&copy; 2023 A.I.M. Corp. Tous droits réservés.</span>
+        </div>
+    </footer>
+
+    <script>
+        // Fonctions pour afficher/cacher la liste des liens
+        function showMenu() {
+            var navList = document.getElementById("navList");
+            navList.style.display = "flex";
+        }
+    
+    
+        function hideMenu() {
+            var navList = document.getElementById("navList");
+            navList.style.display = "none";
+        }  
+    </script>
+    
+</body>
+</html>
